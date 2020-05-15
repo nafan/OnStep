@@ -10,6 +10,9 @@
 #if PINMAP == Mega2560Alt
   #include "Pins.Mega2560Alt.h"
 #endif
+#if PINMAP == MegaCNC30
+  #include "Pins.MegaCNC30.h"
+#endif
 #if PINMAP == MiniPCB
   #include "Pins.MiniPCB.h"
 #endif
